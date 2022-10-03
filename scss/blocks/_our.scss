@@ -1,0 +1,103 @@
+/* SECTION OUR START */
+.our {
+    padding: 60px 0px 103px 0px;
+}
+
+.our-title {
+    margin-bottom: 23px;
+    font-size: 20px;
+    font-weight: 600;
+line-height: 187.5%;
+color: #222222;
+}
+.our-text-box{
+    width: 100%;
+    max-width: 332px;
+}
+.our-text {
+    font-size: 12px;
+    line-height: 187.5%;
+    color: #525252;
+}
+.our-img{
+    width: 280px;
+    margin-bottom: 28px;
+    &:nth-child(4){
+        margin-bottom: 0px;
+    }
+}
+@media only screen and (min-width: 400px){
+    .our-img{
+        width: 306px;
+        height: 185px;
+    }
+}
+@media only screen and (min-width: 768px){
+    .our-box{
+        width: 641px;
+    }
+    .our-title{
+        margin-bottom: 18px;
+        font-size: 25px;
+    }
+    .our-text{
+        font-size: 14px;
+    }
+    .our-img{
+        width: 307px;
+        height: 185px;
+    }
+}
+@media only screen and (min-width: 992px){
+    .our{
+        padding-top: 141px;
+        padding-bottom: 99px;
+    }
+    .our-text-box{
+        max-width: 497px;
+        margin-bottom: 71px;
+    }
+}
+@media only screen and (min-width: 1200px){
+    .our-box{
+        width: 100%;
+        max-width: 1170px;
+    }
+    .our-img{
+        &:nth-child(1){
+            width: 382px;
+            height: 223px;
+            margin-right: 27px !important;
+            margin-bottom: 33px;
+        }
+        &:nth-child(2){
+            width: 382px;
+            height: 223px;
+            margin-right: 27px !important;
+            margin-bottom: 33px;
+        }
+        &:nth-child(3){
+            order: 1;
+            width: 469px;
+            height: 223px;
+            margin-bottom: 0px;
+        }
+        &:nth-child(4){
+            width: 352px;
+            height: 223px;
+        }
+        &:nth-child(5){
+            width: 246px;
+            height: 223px;
+            margin-right: 27px !important;
+            margin-bottom: 0px;
+        }
+        &:nth-child(6){
+            width: 401px;
+            height: 223px;
+            margin-right: 27px !important;
+            margin-bottom: 0px;
+        }
+    }
+}
+/* SECTION OUR END */
