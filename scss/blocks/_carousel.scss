@@ -29,17 +29,28 @@
 
 .slider {
     width: 100%;
-    max-width: 1520px;
+    max-width: 280px;
     margin-bottom: 0px;
 }
 
+
+
 .slider-item {
-    width: 299px !important;
-    margin-right: 38px;
+    width: 280px !important;
     padding: 30px 31px 24px 28px;
     background-color: #fff;
     box-shadow: 0px 4px 94px #0000000d;
-border-radius: 20px;
+    border-radius: 20px;
+}
+
+@media only screen and (min-width: 400px) {
+    .slider {
+        max-width: 299px;
+    }
+
+    .slider-item {
+        width: 299px !important;
+    }
 }
 
 .slick-track {
@@ -95,7 +106,7 @@ border-radius: 20px;
     font-size: 20px;
     line-height: 187.5%;
     font-weight: 600;
-color: #000000;
+    color: #000000;
 }
 
 .slider-text {
@@ -142,7 +153,16 @@ color: #000000;
 .slick-prev {
     left: auto !important;
 }
+@media only screen and (min-width: 840px) {
+    .slider {
+        max-width: 1520px;
+    }
 
+    .slider-item {
+        width: 378px !important;
+        margin-right: 39px;
+    }
+}
 @media only screen and (min-width: 992px) {
     .carousel {
         padding-top: 69px;
@@ -154,20 +174,25 @@ color: #000000;
         margin-bottom: 65px;
         padding-left: 54px;
     }
+
     .slider-item {
         width: 378px !important;
     }
-    .slider-title{
+
+    .slider-title {
         margin-bottom: 19px;
         padding: 7px 35px 6px 14px;
     }
-    .slider-title-part{
+
+    .slider-title-part {
         margin-bottom: 16px;
     }
-    .slider-text{
+
+    .slider-text {
         margin-bottom: 28px;
+        font-size: 14px;
     }
-   
+
     .carousel-title {
         font-size: 30px;
     }
